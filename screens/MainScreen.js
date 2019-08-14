@@ -15,4 +15,8 @@ const MainScreen = props => {
 
 const styles = StyleSheet.create({});
 
+MainScreen.navigationOptions = {
+  headerTitle: "Main Screen"
+};
+
 export default MainScreen;
